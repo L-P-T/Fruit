@@ -9,7 +9,7 @@ from ultralytics import YOLO
 from pynput import keyboard, mouse as pynput_mouse
 
 # ================= CONFIGURATION =================
-MODEL_PATH = "C:/Users/linph/OneDrive/Desktop/Bachalor/M SOT SDP Assignment - LIN PHONE THANT/Element 1/Element 2 Project Code and Documentation (Leader)/Complete bot/weights/best.pt"    # UPDATE
+MODEL_PATH = "C:/Users/linph/OneDrive/Desktop/Bachalor/Element 2/Element 2 Project Code and Documentation (Leader)/Complete bot/weights/best.pt"    # UPDATE
 GAME_REGION = {"top": 0, "left": 0, "width": 1920, "height": 1080}  # UPDATE
 HOTKEY = '<f2>'
 CONF_THRESHOLD = 0.5

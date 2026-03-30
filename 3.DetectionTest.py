@@ -6,7 +6,7 @@ from ultralytics import YOLO
 # REPLACE with your actual region from Step 2: (left, top, width, height)
 GAME_REGION = {"top": 0, "left": 0, "width": 1920, "height": 1080}
 
-model = YOLO("C:/Users/linph/OneDrive/Desktop/Bachalor/M SOT SDP Assignment - LIN PHONE THANT/Element 1/Element 2 Project Code and Documentation (Leader)/Complete bot/weights/best.pt")   # <-- UPDATE THIS
+model = YOLO("C:/Users/linph/OneDrive/Desktop/Bachalor/Element 2/Element 2 Project Code and Documentation (Leader)/Complete bot/weights/best.pt")   # <-- UPDATE THIS
 
 with mss.mss() as sct:
     while True:
